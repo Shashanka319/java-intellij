@@ -1,7 +1,5 @@
 package com.xworkz.Shashank.CRUD;
 
-import java.util.Objects;
-
 public class ToyOperation {
     Toy[] toys;
     int currentIndex;
@@ -26,20 +24,18 @@ public class ToyOperation {
             System.out.println("toys and toy is Null CHeck once...");
         }
     }
-    public void search(String names){
+    public boolean search(String names){
         if(this.toys!=null && names!=null){
             for(Toy toy:this.toys){
                 if(toy!=null){
                     System.out.println("toy is Not null Proceed to search"+names);
-                    if(Objects.equals(toy.name, names)){
+                    if(toy.name==names){
                         toy.info();
-                    }else{
-                        System.out.println("This Name of Toy Information is not Available in Array index...");
-                    }
+                    }return false;
 
-                }return;
+                }return false;
             }
-        }
+        }return  false;
 
     }
 }
