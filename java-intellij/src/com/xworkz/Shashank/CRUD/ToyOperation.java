@@ -1,3 +1,4 @@
+
 package com.xworkz.Shashank.CRUD;
 
 public class ToyOperation {
@@ -21,21 +22,21 @@ public class ToyOperation {
                 System.out.println("Array index not match check once...");
             }
         }else {
-            System.out.println("toys and toy is Null CHeck once...");
+            System.out.println("toys and toy is Null Check once...");
         }
     }
-    public boolean search(String names){
+    public void search(String names){
         if(this.toys!=null && names!=null){
             for(Toy toy:this.toys){
                 if(toy!=null){
                     System.out.println("toy is Not null Proceed to search"+names);
                     if(toy.name==names){
                         toy.info();
-                    }return false;
+                    }
 
-                }return false;
+                }
             }
-        }return  false;
+        }
 
     }
 }
