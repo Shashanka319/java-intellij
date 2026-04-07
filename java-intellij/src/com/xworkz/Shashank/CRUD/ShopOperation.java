@@ -33,5 +33,17 @@ public class ShopOperation {
             }
         }return  false;
     }
+    public void update(double profits,double newProfits){
+        if(this.shops!=null && profits!=0 && newProfits!=0){
+            for(Shop shop:this.shops){
+                if(shop!=null){
+                    if(shop.profit==profits)
+                        shop.profit=newProfits;
+                    System.out.println("before updated the Profit:"+profits);
+                    System.out.println("updated Profits:"+newProfits);
+                }
+            }
+        }
+    }
 
 }

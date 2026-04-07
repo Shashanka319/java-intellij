@@ -25,18 +25,21 @@ public class ToyOperation {
             System.out.println("toys and toy is Null Check once...");
         }
     }
-    public void search(String names){
-        if(this.toys!=null && names!=null){
-            for(Toy toy:this.toys){
-                if(toy!=null){
-                    System.out.println("toy is Not null Proceed to search"+names);
-                    if(toy.name==names){
-                        toy.info();
-                    }
+    public void update(int index, String newName) {
+        if (this.toys != null && newName != null) {
 
+            if (index >= 0 && index < this.toys.length) {
+                if (this.toys[index] != null) {
+                    this.toys[index].name = newName;
+                    System.out.println("Updated toy at index " + index + " to " + newName);
+                } else {
+                    System.out.println("No toy found at index " + index + " to update.");
                 }
+            } else {
+                System.out.println("Invalid index.");
             }
         }
+    }
 
     }
 }

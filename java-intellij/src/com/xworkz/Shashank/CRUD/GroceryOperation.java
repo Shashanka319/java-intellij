@@ -27,4 +27,18 @@ public class GroceryOperation {
             }
         }
     }
+    void update(String location,String newLocation)
+    {
+        if(this.groceries!=null && location!=null && newLocation!=null){
+            for(Grocery grocery:this.groceries){
+                if(grocery!=null){
+                    if(grocery.location==location){
+                        grocery.location=newLocation;
+                        System.out.println("before updating the Name:"+location);
+                        System.out.println("Updated Name:"+newLocation);
+                    }
+                }
+            }
+        }
+    }
 }

@@ -28,4 +28,17 @@ public class PanCardOperation {
             }
         }
     }
+    void update(int index, String panName){
+        if(this.panCards!=null && panName!=null){
+            if(index>=0 &&index<=this.panCards.length){
+                if(this.panCards[index]!=null){
+                    this.panCards[index].name=panName;
+                    System.out.println("index for update the Name:"+index);
+                    System.out.println("Updated Name:"+panName);
+                }
+            }
+        }
+
+
+    }
 }

@@ -7,6 +7,7 @@ public class PanCardRunner {
         PanCardOperation panCardOperation=new PanCardOperation(pans);
         panCardOperation.store(panCard);
         panCardOperation.search("Shashank");
+        panCardOperation.update(0,"Kishor");
 
     }
 }

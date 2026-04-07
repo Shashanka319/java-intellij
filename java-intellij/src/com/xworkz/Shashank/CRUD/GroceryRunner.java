@@ -7,5 +7,6 @@ public class GroceryRunner {
         GroceryOperation groceryOperation=new GroceryOperation(groceries);
         groceryOperation.store(grocery);
         groceryOperation.check("BTM Layout");
+        groceryOperation.update("BTM Layout","Mejestic");
     }
 }
