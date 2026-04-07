@@ -7,5 +7,6 @@ public class ShopRunner {
         ShopOperation shopOperation=new ShopOperation(shops);
         shopOperation.save(shop);
         shopOperation.search(500000);
+
     }
 }

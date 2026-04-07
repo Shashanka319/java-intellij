@@ -7,6 +7,7 @@ public class ToyRunner {
         ToyOperation toyOperation=new ToyOperation(toys);
         toyOperation.store(toy);
         toyOperation.search("Dall");
+        toyOperation.search("Bat");
 
     }
 }
