@@ -60,7 +60,7 @@ class Dolphin {
         System.out.println("The dolphin is interacting with other dolphins.");
     }
 
-   actions related to dolphins as a class)
+   actions related; to dolphins as a class);
     static void getSpeciesInfo() {
         System.out.println("Dolphins belong to the family Delphinidae.");
     }

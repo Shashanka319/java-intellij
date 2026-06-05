@@ -1,7 +1,7 @@
 package com.xworkz.krmarket.runner;
 
 import com.xworkz.krmarket.shop.Shop;
-import com.xworkz.krmarket.shop.impl.Vegetable;
+import com.xworkz.krmarket.shop.
 
 public class ShopRunner {
     public static void main(String[] args) {
