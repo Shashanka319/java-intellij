@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a0bd564-4bb8-4900-8479-174c2b3d1bae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/core_java/src/com/xworkz/oops/inheritance/MetroTrain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core_java/src/com/xworkz/oops/inheritance/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core_java/src/com/xworkz/oops/inheritance/Train.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Inheritance-Task/src/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Inheritance-Task/src/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task18/Dolphin.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task18/Dolphin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task5/Age.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task5/Age.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/krmarket/src/com/xworkz/krmarket/runner/ShopRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/krmarket/src/com/xworkz/krmarket/runner/ShopRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/method_Invocation/Task_29/StationRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/method_Invocation/Task_29/StationRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,18 +50,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Runner.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Xworkz Internship/core-java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Xworkz Internship/core-java&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="Application.StationRunner">
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="core_java.src.com.xworkz.oops.inheritance.Runner" />
       <module name="core-java" />
@@ -75,8 +75,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StationRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java.src.com.xworkz.oops.pollymorphism.StationRunner" />
+      <module name="core-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="core_java.src.com.xworkz.oops.pollymorphism.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StationRunner" />
         <item itemvalue="Application.Runner" />
       </list>
     </recent_temporary>
